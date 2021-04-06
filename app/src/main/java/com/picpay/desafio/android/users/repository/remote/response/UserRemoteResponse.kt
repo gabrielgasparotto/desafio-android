@@ -9,9 +9,9 @@ import kotlinx.coroutines.withContext
 
 @Parcelize
 data class UserResponse(
+    @SerializedName("id") override val id: Int,
     @SerializedName("img") override val img: String,
     @SerializedName("name") override val name: String,
-    @SerializedName("id") override val id: Int,
     @SerializedName("username") override val username: String
 ) : User
 
