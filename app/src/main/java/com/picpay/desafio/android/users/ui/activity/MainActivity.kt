@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.picpay.desafio.android.R
-import com.picpay.desafio.android.User
+import com.picpay.desafio.android.users.model.User
 import com.picpay.desafio.android.users.ui.adapter.UserListAdapter
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
