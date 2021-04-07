@@ -23,4 +23,10 @@ object UserMock {
             "gaspa"
         )
     )
+
+    const val ERROR_EMPTY_LIST = "lista vazia"
+    fun mockUserSuccessEmpty(): Result<List<User>> = Result.success(emptyList())
+    fun mockUserSuccess(): Result<List<User>> = Result.success(mockUserEntity())
+    fun mockUserFailure(exception: Throwable): Result<List<User>> =
+        Result.failure(exception)
 }
