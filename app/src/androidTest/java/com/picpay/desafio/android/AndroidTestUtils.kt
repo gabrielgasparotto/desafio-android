@@ -1,4 +1,4 @@
-package com.picpay.desafio.android.users.ui.activity
+package com.picpay.desafio.android
 
 import com.picpay.desafio.android.service.WebService
 import io.mockk.every

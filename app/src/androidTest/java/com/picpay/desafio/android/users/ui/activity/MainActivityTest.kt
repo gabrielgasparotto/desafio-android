@@ -3,7 +3,7 @@ package com.picpay.desafio.android.users.ui.activity
 import androidx.room.Room
 import androidx.test.platform.app.InstrumentationRegistry
 import com.picpay.desafio.android.users.repository.local.database.UserDataBase
-import com.picpay.desafio.android.users.ui.activity.AndroidTestUtils.setupServerUrl
+import com.picpay.desafio.android.AndroidTestUtils.setupServerUrl
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.After
 import org.junit.Before
